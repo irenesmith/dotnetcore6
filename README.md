@@ -11,6 +11,6 @@ Projects in this repository:
   including movies, TV shows, books, and video games.
 - [Core 6 with Main](Core6WithMain/) - Just a quick application that looks like a .NET
   5 application but includes a namespace, a Program class, and a Main method.
-- [New FizzBuzz] - An implementation of FizzBuzz programming challenge created using the
+- [New FizzBuzz](NewFizzBuzz/) - An implementation of FizzBuzz programming challenge created using the
   switch expression which is available in .NET 5 and 6. Notice that by using top-level
   statements, it's reduced the size of the C# file (FizzBuzz.cs) to 10 lines of code.
