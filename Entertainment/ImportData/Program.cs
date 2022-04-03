@@ -4,7 +4,7 @@ var books= BookList.GetBooks();
 books.ForEach(book =>
 {
     Console.WriteLine($"Title: { book.Title}");
-    Console.WriteLine("Author(s):");
+    Console.Write("Author(s):");
     book.Author.ForEach(author => Console.WriteLine($"\t{author}"));
     Console.WriteLine($"Format: { book.Format}");
     Console.WriteLine($"Year: { book.Year}\n");
