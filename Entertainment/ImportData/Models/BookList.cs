@@ -4,7 +4,7 @@ namespace ImportBooks.Models
 {
     internal static class BookList
     {
-        private const string bookFileName = @"C:\Users\irene\source\repos\CSharp10\Entertainment\books2021.json";
+        private const string bookFileName = "books2021.json";
 
         public static List<Book> GetBooks()
         {

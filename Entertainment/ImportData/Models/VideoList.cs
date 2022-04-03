@@ -4,7 +4,7 @@ namespace ImportBooks.Models
 {
     internal static class VideoList
     {
-        private const string videoFileName = @"C:\Users\irene\source\repos\CSharp10\Entertainment\videos.json";
+        private const string videoFileName = "videos.json";
 
         public static List<Video> GetVideos()
         {
